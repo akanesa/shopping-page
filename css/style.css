@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+main {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: pink; }
+
+.main-contents {
+  background-color: #FF8881;
+  width: 74.4%; }
+
+h2 {
+  text-align: center; }
+
+header {
+  background-color: gold;
+  height: 100px; }
+
+.cover {
+  background-color: #496AB3;
+  color: white;
+  height: 200px;
+  text-align: center; }
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .list-items .list-item {
+    width: 33%;
+    height: 200px;
+    background-color: #FFFFBC;
+    margin-bottom: 2px; }
+
+.shopping-guide {
+  background-color: tomato;
+  text-align: center; }
+  .shopping-guide .shopping-mainbox {
+    display: flex;
+    justify-content: center;
+    background-color: orange; }
+    .shopping-guide .shopping-mainbox .shopping-items {
+      width: 45%;
+      height: 150px;
+      background-color: #A2CC54;
+      margin: 2px;
+      text-align: center; }
+
+.side-contents {
+  background-color: #7093B3;
+  width: 23.4%; }
+
+footer {
+  background-color: #49A6B3;
+  height: 100px; }
+
+/*# sourceMappingURL=style.css.map */
