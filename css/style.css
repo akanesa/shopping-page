@@ -171,11 +171,16 @@ header {
   border-bottom: 1px solid #e3e8cf;
   padding-top: 20px;
   padding-bottom: 20px; }
-
-.products-items-img-jquery {
-  margin-left: 18px; }
-  .products-items-img-jquery .prpducts-items-img-jpuery-img {
-    width: calc(38% - 2px); }
+  .main-box-products-items img {
+    max-width: 100%; }
+  .main-box-products-items .products-items-img {
+    width: 62%; }
+  .main-box-products-items .products-items-img-jquery {
+    margin-left: 18px;
+    width: 38%; }
+    .main-box-products-items .products-items-img-jquery .prpducts-items-img-jpuery-img {
+      width: calc( 38% - 2px);
+      display: inline-block; }
 
 .main-container-box {
   background-color: white; }
