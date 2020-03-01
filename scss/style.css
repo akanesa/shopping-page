@@ -7,6 +7,9 @@
 html {
   font-size: 62.5%; }
 
+img {
+  max-width: 100%; }
+
 main {
   max-width: 940px;
   margin: 0 auto;
@@ -22,6 +25,7 @@ h2 {
   text-align: center; }
 
 header {
+  background-color: gold;
   max-width: 940px;
   margin: 0 auto; }
 
@@ -35,12 +39,16 @@ header {
 #nav {
   list-style: none;
   vertical-align: bottom; }
-
-li {
-  display: inline-block;
-  vertical-align: bottom; }
-  li .menu-logo {
-    margin-right: 10px; }
+  #nav li {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 16px; }
+    #nav li:nth-of-type(4) {
+      margin-right: 12px; }
+    #nav li:nth-of-type(5) {
+      margin-right: 0; }
+    #nav li:nth-of-type(6) {
+      margin-right: 0; }
 
 .facebook-logo {
   margin-left: 5px; }
@@ -84,5 +92,9 @@ li {
 footer {
   background-color: #49A6B3;
   height: 100px; }
+
+@media (min-width: 640px) {
+  .header-box {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
